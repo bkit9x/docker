@@ -38,7 +38,7 @@ services:
     environment:
       MYSQL_ALLOW_EMPTY_PASSWORD: "false"
       MYSQL_ROOT_PASSWORD: "root"
-      MYSQL_DATABASE: "laravel"
+      MYSQL_DATABASE: "my_database"
   redis:
     image: redis
   phpmyadmin:
